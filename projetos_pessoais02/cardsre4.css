@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+    max-width: 1300px;
+    
+}
+
+.img__topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.border {
+    height: 378px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+.card {
+    height: 379px;
+    width: 290px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: black;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.664);
+    cursor: pointer;
+    /*transition: .7s;*/
+}
+
+.card:hover {
+    /*transform: scale3d(1.1, 1.1, 5);*/
+}
+
+.card0 {
+    background: url(img_cards/Image4kq8.webp) center center no-repeat;
+    background-size: 300px;
+}
+
+h1 {
+    color: #fff;
+    margin-left: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.card0:hover {
+    background: url(img_cards/Image4kq8.webp) left center no-repeat;
+    background-size: 600px;
+}
+
+.card0:hover h1 {
+    opacity: 1;
+}
+
+.card0:hover .leon {
+    opacity: 1;
+}
+
+
+
+.leon {
+    opacity: 0;
+    transition: opacity 2.5s;
+    
+}
+
+.texto {
+    position: absolute;
+    margin-left: 10px;
+    color: #fff;
+    height: 130px;
+    top: 226px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*card1*/
+.card1 {
+    background: url(img_cards/AshleyGraham.webp) center center no-repeat;
+    background-size: 300px;
+}
+
+.card1:hover {
+    background: url(img_cards/ashley_2.jpg) left center no-repeat;
+    background-size: 400px;
+}
+
+.card1:hover h1 {
+    opacity: 1;
+}
+
+.card1:hover .ashley {
+    opacity: 1;
+}
+
+.ashley {
+    opacity: 1;
+    transition: opacity 2.5s;
+
+h1 {
+    color: #fff;
+    margin-left: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+    
+}
+
+.texto {
+    position: absolute;
+    margin-left: 10px;
+    color: #fff;
+    height: 130px;
+    top: 226px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*card 2*/
+.card2 {
+    background: url(img_cards/ada_wong.jpg) center center no-repeat;
+    background-size: 300px;
+}
+
+h1 {
+    color: #fff;
+    margin-left: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.card2:hover {
+    background: url(img_cards/ada_wong_2.jpg) top center no-repeat;
+    background-size: 300px;
+}
+
+.card2:hover h1 {
+    opacity: 1;
+}
+
+.card2:hover .ada {
+    opacity: 1;
+}
+
+
+
+.ada {
+    opacity: 0;
+    transition: opacity 2.5s;
+    
+}
+
+.texto {
+    position: absolute;
+    margin-left: 10px;
+    color: #fff;
+    height: 130px;
+    top: 226px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*card 3*/
+.card3 {
+    background: url(img_cards/luis_serra.jpg) center center no-repeat;
+    background-size: 300px;
+}
+
+h1 {
+    color: #fff;
+    margin-left: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.card3:hover {
+    background: url(img_cards/luis_serra.jpg) top center no-repeat;
+    background-size: 600px;
+}
+
+.card3:hover h1 {
+    opacity: 1;
+}
+
+.card3:hover .luis {
+    opacity: 1;
+}
+
+
+
+.luis {
+    opacity: 0;
+    transition: opacity 2.5s;
+    
+}
+
+.texto {
+    position: absolute;
+    margin-left: 10px;
+    color: #fff;
+    height: 130px;
+    top: 226px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* card 4*/
+.card4 {
+    background: url(img_cards/dr_salvador.jpg) center center no-repeat;
+    background-size: 300px;
+}
+
+h1 {
+    color: #fff;
+    margin-left: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.card4:hover {
+    background: url(img_cards/dr-salvador2.png) center center no-repeat;
+    background-size: 465px;
+}
+
+.card4:hover h1 {
+    opacity: 1;
+}
+
+.card3:hover .luis {
+    opacity: 1;
+}
+
+
+
+.luis {
+    opacity: 0;
+    transition: opacity 2.5s;
+    
+}
+
+.texto {
+    position: absolute;
+    margin-left: 10px;
+    color: #fff;
+    height: 130px;
+    top: 226px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*card 5*/
+.card5 {
+    background: url(img_cards/salazar.jpg) center center no-repeat;
+    background-size: 300px;
+}
+
+h1 {
+    color: #fff;
+    margin-left: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.card5:hover {
+    background: url(img_cards/salazar_2.jpg) center center no-repeat;
+    background-size: 380px;
+}
+
+.card5:hover h1 {
+    opacity: 1;
+}
+
+.card3:hover .luis {
+    opacity: 1;
+}
+
+
+
+.luis {
+    opacity: 0;
+    transition: opacity 2.5s;
+    
+}
+
+.texto {
+    position: absolute;
+    margin-left: 10px;
+    color: #fff;
+    height: 130px;
+    top: 226px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/*card 6*/
+.card6 {
+    background: url(img_cards/krauserplagasjpg.jpg) center center no-repeat;
+    background-size: 330px;
+}
+
+h1 {
+    color: #fff;
+    margin-left: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.card6:hover {
+    background: url(img_cards/jack_krauser_-2.jpg) center center no-repeat;
+    background-size: 300px;
+}
+
+.card6:hover h1 {
+    opacity: 1;
+}
+
+.card3:hover .luis {
+    opacity: 1;
+}
+
+
+
+.luis {
+    opacity: 0;
+    transition: opacity 2.5s;
+    
+}
+
+.texto {
+    position: absolute;
+    margin-left: 10px;
+    color: #fff;
+    height: 130px;
+    top: 226px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
